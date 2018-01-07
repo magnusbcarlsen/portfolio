@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+}
+
+/* Set height of body and the document to 100% */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Quattrocento', serif;
+    background-color: black;
+}
+
+p {
+    font-family: 'Quattrocento', serif;
+    color: white;
+    padding: 10px;
+
+}
+
+ul {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: $fs;
+    text-align: center @media screen and (max-width: $res);
+    font-size: $fs2;
+    @media screen and (max-width: "$res2");
+    font-size: $fs3;
+    font-family: 'Abril Fatface', cursive;
+    padding: 10px;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1em;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    position: relative;
+    font-size: 1.6em;
+    font-family: 'Abril Fatface', cursive;
+
+
+}
+
+a:hover {
+    color: #808080;
+
+}
+
+
+
+/* Style tab links */
+
+.tablink {
+    background-color: #580302;
+    color: #8C7D5B;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 25%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.tablink:hover {
+    background-color: #A4936C;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+
+.tabcontent {
+    color: #000000;
+    display: none;
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+#forside {
+    background-color: black;
+}
+
+#portfolio {
+    background-color: black;
+}
+
+#om {
+    background-color: black;
+}
+
+#kontakt {
+    background-color: black;
+}
+
+
+/**************forside***************************/
+
+.intro_pic img {
+    width: 100%;
+
+}
+
+
+
+/**************forside slut***************************/
+
+/**************info***************************/
+
+#info img {
+    border-radius: 300px;
+    width: 24vw;
+    border: solid white;
+}
+
+.info_container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+#info .info {
+    width: 400px;
+    margin: 80px auto;
+}
+
+#info .imginfo {
+    width: 400px;
+    margin: 80px auto;
+
+}
+
+#img_container {}
+
+
+/**************info slut***************************/
+
+.fronttext {
+    margin: 0 auto;
+    position: top 50%;
+    width: 400px;
+
+}
+
+.intro_pic {
+    margin: 0 auto;
+}
+
+/*******************Portfolio**********************/
+
+.boks_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.boks {
+    width: 45vw;
+    height: 75vh;
+    border-radius: 20px;
+    border: solid white;
+    overflow: scroll;
+    margin-bottom: 50px;
+    opacity: 0.7;
+}
+
+.boks:hover {
+    opacity: 1;
+    transform: scale(1.02);
+
+}
+
+/*******************Video***************/
+
+/*******************egen animation***************/
+
+.karakter_container {
+    display: flex;
+}
+
+.karakter {
+    justify-content: space-between;
+}
+
+.scene img {
+    width: 100%;
+}
+
+.karakter img {
+    width: 95%;
+
+}
+
+.skitse_stor_container {
+    display: flex;
+}
+
+#karakter img {
+    padding: 15px;
+}
+
+
+
+.scene img {
+    align-items: center;
+}
+
+.scene img {
+    width: 100%;
+    padding: 15px;
+}
+
+.link_egenanim1 a {
+    padding-left: 12vw;
+    padding-bottom: 30px;
+}
+
+
+.link_egenanim2 a {
+    padding-left: 14vw;
+    padding-bottom: 30px;
+}
+
+/*******************stilart***************/
+
+.link_stilart a {
+    padding-left: 18vw;
+    padding-bottom: 30px;
+}
+
+.link_grundv a {
+    padding-bottom: 30px;
+    padding-left: 8vw;
+}
+
+.link_redesign a {
+    padding-left: 9vw;
+    padding-bottom: 30px;
+}
+
+.link_sex a {
+    padding-left: 11vw;
+    padding-bottom: 30px;
+}
+
+.link_uxo1 a {
+    padding-left: 16vw;
+    padding-bottom: 30px;
+}
+
+.link_uxo2 a {
+    padding-left: 11vw;
+    padding-bottom: 30px;
+}
+
+.link_uxr1 a {
+    padding-left: 12vw;
+    padding-bottom: 30px;
+    padding-top: 100px;
+
+
+}
+
+.link_uxr2 a {
+    padding-left: 17vw;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.gvideo {
+    padding-left: 38px;
+    padding-bottom: 30px;
+}
+
+.rvideo {
+    padding: 38px;
+    padding-bottom: 30px;
+}
+
+
+.app {
+    padding-left: 230px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+/*******************Portfolio slut**********************/
